@@ -6,4 +6,6 @@
 
 ## etapas da estratégia canary
 
+## estrutura do Dockerfile
+
 
