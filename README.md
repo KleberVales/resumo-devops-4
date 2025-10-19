@@ -17,6 +17,15 @@ Principais pontos:
 
 ## OCI Object Storage.
 
+O **OCI Object Storage** é um serviço de armazenamento em nuvem escalável e durável para guardar dados não estruturados. É usado no contexto DevOps para:
+
+- Armazenar artefatos de build e pacotes de software.
+- Arquivar logs, backups ou arquivos de configuração.
+- Servir como repositório intermediário para pipelines antes de enviar artefatos para produção.
+- Permite integração com políticas de IAM para controle de acesso seguro.
+
+---
+
 ## etapas da estratégia canary
 
 ## estrutura do Dockerfile
