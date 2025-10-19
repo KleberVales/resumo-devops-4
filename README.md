@@ -4,3 +4,6 @@
 
 ## OCI Object Storage.
 
+## etapas da estratégia canary
+
+
