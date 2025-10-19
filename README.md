@@ -28,6 +28,16 @@ O **OCI Object Storage** é um serviço de armazenamento em nuvem escalável e d
 
 ## etapas da estratégia canary
 
+ **estratégia Canary** permite implantar novas versões de uma aplicação gradualmente, reduzindo riscos de falha em produção. As etapas típicas incluem:
+
+1. **Deploy Canary**: Implantação da nova versão em um subconjunto limitado de usuários ou instâncias.
+2. **Validar**: Monitorar métricas de desempenho e erros da versão Canary.
+3. **Shift Traffic**: Redirecionar o tráfego gradualmente para a nova versão conforme a validação positiva.
+4. **Production**: Completar a implantação para todo o ambiente de produção.
+5. **Rollback** (opcional): Reverter para a versão anterior em caso de problemas detectados durante a validação.
+
+---
+
 ## estrutura do Dockerfile
 
 
