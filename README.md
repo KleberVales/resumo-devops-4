@@ -40,4 +40,16 @@ O **OCI Object Storage** é um serviço de armazenamento em nuvem escalável e d
 
 ## estrutura do Dockerfile
 
+Um **Dockerfile** é um arquivo de configuração declarativo usado para criar imagens de containers. Estrutura básica:
+
+- **FROM**: Define a imagem base.
+- **WORKDIR**: Define o diretório de trabalho dentro do container.
+- **COPY / ADD**: Copia arquivos do host para o container.
+- **RUN**: Executa comandos durante a construção da imagem, criando camadas.
+- **ENV**: Define variáveis de ambiente disponíveis durante build e execução.
+- **CMD / ENTRYPOINT**: Define o comando padrão ou ponto de entrada do container.
+- **EXPOSE**: Informa quais portas serão usadas pelo container.
+- **VOLUME**: Define volumes para persistência de dados.
+
+
 
